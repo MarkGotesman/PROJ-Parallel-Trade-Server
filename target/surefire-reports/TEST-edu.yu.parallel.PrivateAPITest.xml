@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="edu.yu.parallel.PrivateAPITest" time="6.552" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/mnt/c/Users/Mark/.Dev/Dev-Synced/COM0000-Gotesman_Mark_2018243426-GITHUB-PUSH/Parallel/trade-server/target/test-classes:/mnt/c/Users/Mark/.Dev/Dev-Synced/COM0000-Gotesman_Mark_2018243426-GITHUB-PUSH/Parallel/trade-server/target/classes:/root/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/root/.m2/repository/org/springframework/spring-web/6.1.0/spring-web-6.1.0.jar:/root/.m2/repository/org/springframework/spring-beans/6.1.0/spring-beans-6.1.0.jar:/root/.m2/repository/org/springframework/spring-core/6.1.0/spring-core-6.1.0.jar:/root/.m2/repository/org/springframework/spring-jcl/6.1.0/spring-jcl-6.1.0.jar:/root/.m2/repository/io/micrometer/micrometer-observation/1.12.0/micrometer-observation-1.12.0.jar:/root/.m2/repository/io/micrometer/micrometer-commons/1.12.0/micrometer-commons-1.12.0.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.0/junit-jupiter-5.9.0.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.0/junit-jupiter-api-5.9.0.jar:/root/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-commons/1.9.0/junit-platform-commons-1.9.0.jar:/root/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.0/junit-jupiter-params-5.9.0.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.0/junit-jupiter-engine-5.9.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-engine/1.9.0/junit-platform-engine-1.9.0.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar:/root/.m2/repository/org/json/json/20231013/json-20231013.jar:"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="Unknown"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/mnt/c/Users/Mark/.Dev/Dev-Synced/COM0000-Gotesman_Mark_2018243426-GITHUB-PUSH/Parallel/trade-server/target/surefire/surefirebooter-20231124120107149_3.jar /mnt/c/Users/Mark/.Dev/Dev-Synced/COM0000-Gotesman_Mark_2018243426-GITHUB-PUSH/Parallel/trade-server/target/surefire 2023-11-24T12-01-06_885-jvmRun1 surefire-20231124120107149_1tmp surefire_0-20231124120107149_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/mnt/c/Users/Mark/.Dev/Dev-Synced/COM0000-Gotesman_Mark_2018243426-GITHUB-PUSH/Parallel/trade-server/target/test-classes:/mnt/c/Users/Mark/.Dev/Dev-Synced/COM0000-Gotesman_Mark_2018243426-GITHUB-PUSH/Parallel/trade-server/target/classes:/root/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/root/.m2/repository/org/springframework/spring-web/6.1.0/spring-web-6.1.0.jar:/root/.m2/repository/org/springframework/spring-beans/6.1.0/spring-beans-6.1.0.jar:/root/.m2/repository/org/springframework/spring-core/6.1.0/spring-core-6.1.0.jar:/root/.m2/repository/org/springframework/spring-jcl/6.1.0/spring-jcl-6.1.0.jar:/root/.m2/repository/io/micrometer/micrometer-observation/1.12.0/micrometer-observation-1.12.0.jar:/root/.m2/repository/io/micrometer/micrometer-commons/1.12.0/micrometer-commons-1.12.0.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.0/junit-jupiter-5.9.0.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.0/junit-jupiter-api-5.9.0.jar:/root/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-commons/1.9.0/junit-platform-commons-1.9.0.jar:/root/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.0/junit-jupiter-params-5.9.0.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.0/junit-jupiter-engine-5.9.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-engine/1.9.0/junit-platform-engine-1.9.0.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar:/root/.m2/repository/org/json/json/20231013/json-20231013.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/root"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-08-24"/>
+    <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/mnt/c/Users/Mark/.Dev/Dev-Synced/COM0000-Gotesman_Mark_2018243426-GITHUB-PUSH/Parallel/trade-server"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/mnt/c/Users/Mark/.Dev/Dev-Synced/COM0000-Gotesman_Mark_2018243426-GITHUB-PUSH/Parallel/trade-server/target/surefire/surefirebooter-20231124120107149_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.8.1+1-Ubuntu-0ubuntu122.04"/>
+    <property name="user.name" value="root"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.15.133.1-microsoft-standard-WSL2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="Unknown"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.8.1"/>
+    <property name="user.dir" value="/mnt/c/Users/Mark/.Dev/Dev-Synced/COM0000-Gotesman_Mark_2018243426-GITHUB-PUSH/Parallel/trade-server"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="java.vm.version" value="17.0.8.1+1-Ubuntu-0ubuntu122.04"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="multiClientIndependentRequests" classname="edu.yu.parallel.PrivateAPITest" time="4.541">
+    <system-out><![CDATA[12:01:11.351 [Thread-1] INFO  - Application starting
+12:01:11.374 [Thread-1] INFO  - Using 10 broker(s)
+12:01:11.636 [Thread-1] INFO  - Loaded 15 stocks
+12:01:11.637 [Thread-1] INFO  - Started updating of stock prices
+12:01:11.638 [Thread-1] INFO  - Server started on port 8080. Press Ctrl+C to stop...
+12:01:12.714 [pool-3-thread-2] INFO  - In handleRegisterClient with URI: /register?clientId=client1&funds=10000.0. Request Method: POST
+12:01:12.715 [pool-3-thread-1] INFO  - In handleRegisterClient with URI: /register?clientId=client2&funds=10000.0. Request Method: POST
+12:01:12.715 [pool-3-thread-3] INFO  - In handleRegisterClient with URI: /register?clientId=client3&funds=10000.0. Request Method: POST
+12:01:13.002 [pool-3-thread-4] INFO  - In handleGetPrices with URI: /prices. Request Method: GET
+12:01:13.002 [pool-3-thread-6] INFO  - In handleBuyRequest with URI: /buy?shares=5&symbol=AAPL&clientId=client1. Request Method: POST
+12:01:13.002 [pool-3-thread-5] INFO  - In handleGetPrices with URI: /prices. Request Method: GET
+12:01:13.010 [pool-3-thread-7] INFO  - In handleGetMarketValue with URI: /marketvalue?clientId=client3. Request Method: GET
+12:01:13.010 [pool-3-thread-8] INFO  - In handleBuyRequest with URI: /buy?shares=5&symbol=CAT&clientId=client2. Request Method: POST
+12:01:13.045 [pool-3-thread-9] INFO  - In handleBuyRequest with URI: /buy?shares=10&symbol=AMGN&clientId=client1. Request Method: POST
+12:01:13.073 [pool-3-thread-10] INFO  - In handleBuyRequest with URI: /buy?shares=5&symbol=CVX&clientId=client3. Request Method: POST
+12:01:13.093 [pool-3-thread-3] INFO  - In handleSellRequest with URI: /sell?shares=3&symbol=AAPL&clientId=client1. Request Method: POST
+12:01:13.103 [pool-3-thread-1] INFO  - In handleBuyRequest with URI: /buy?shares=20&symbol=CSCO&clientId=client2. Request Method: POST
+12:01:13.134 [pool-3-thread-2] INFO  - In handleBuyRequest with URI: /buy?shares=20&symbol=GS&clientId=client3. Request Method: POST
+12:01:13.143 [pool-3-thread-5] INFO  - In handleGetMarketValue with URI: /marketvalue?clientId=client1. Request Method: GET
+12:01:13.163 [pool-3-thread-4] INFO  - In handleSellRequest with URI: /sell?shares=3&symbol=CAT&clientId=client2. Request Method: POST
+12:01:13.182 [pool-3-thread-7] INFO  - In handleSellRequest with URI: /sell?shares=3&symbol=CVX&clientId=client3. Request Method: POST
+12:01:13.195 [pool-3-thread-8] INFO  - In handleGetPrices with URI: /prices. Request Method: GET
+12:01:13.215 [pool-3-thread-6] INFO  - In handleGetMarketValue with URI: /marketvalue?clientId=client2. Request Method: GET
+12:01:13.234 [pool-3-thread-9] INFO  - In handleBuyRequest with URI: /buy?shares=3&symbol=IBM&clientId=client3. Request Method: POST
+12:01:13.242 [pool-3-thread-10] INFO  - In handleSellRequest with URI: /sell?shares=3&symbol=AMGN&clientId=client1. Request Method: POST
+12:01:13.263 [pool-3-thread-3] INFO  - In handleBuyRequest with URI: /buy?shares=3&symbol=AXP&clientId=client2. Request Method: POST
+12:01:13.283 [pool-3-thread-1] INFO  - In handleSellRequest with URI: /sell?shares=5&symbol=GS&clientId=client3. Request Method: POST
+12:01:13.304 [pool-3-thread-2] INFO  - In handleGetPortfolio with URI: /portfolio?clientId=client1. Request Method: GET
+12:01:13.312 [pool-3-thread-5] INFO  - In handleGetPortfolio with URI: /portfolio?clientId=client2. Request Method: GET
+12:01:13.333 [pool-3-thread-4] INFO  - In handleGetPortfolio with URI: /portfolio?clientId=client3. Request Method: GET
+12:01:13.479 [main   ] INFO  - Server stopped.
+12:01:13.481 [Thread-1] INFO  - Application exiting
+]]></system-out>
+  </testcase>
+  <testcase name="multiClientConflictingRequests" classname="edu.yu.parallel.PrivateAPITest" time="0.446">
+    <system-out><![CDATA[12:01:13.508 [Thread-5] INFO  - Application starting
+12:01:13.509 [Thread-5] INFO  - Using 10 broker(s)
+12:01:13.523 [Thread-5] INFO  - Loaded 15 stocks
+12:01:13.524 [Thread-5] INFO  - Started updating of stock prices
+12:01:13.525 [Thread-5] INFO  - Server started on port 8080. Press Ctrl+C to stop...
+12:01:13.537 [pool-5-thread-1] INFO  - In handleRegisterClient with URI: /register?clientId=client2&funds=10000.0. Request Method: POST
+12:01:13.538 [pool-5-thread-2] INFO  - In handleRegisterClient with URI: /register?clientId=client1&funds=10000.0. Request Method: POST
+12:01:13.538 [pool-5-thread-3] INFO  - In handleRegisterClient with URI: /register?clientId=client3&funds=10000.0. Request Method: POST
+12:01:13.543 [pool-5-thread-5] INFO  - In handleGetPrices with URI: /prices. Request Method: GET
+12:01:13.543 [pool-5-thread-4] INFO  - In handleBuyRequest with URI: /buy?shares=5&symbol=AAPL&clientId=client1. Request Method: POST
+12:01:13.544 [pool-5-thread-6] INFO  - In handleGetPrices with URI: /prices. Request Method: GET
+12:01:13.603 [pool-5-thread-7] INFO  - In handleGetMarketValue with URI: /marketvalue?clientId=client3. Request Method: GET
+12:01:13.604 [pool-5-thread-8] INFO  - In handleBuyRequest with URI: /buy?shares=5&symbol=AAPL&clientId=client2. Request Method: POST
+12:01:13.604 [pool-5-thread-9] INFO  - In handleBuyRequest with URI: /buy?shares=10&symbol=AMGN&clientId=client1. Request Method: POST
+12:01:13.654 [pool-5-thread-2] INFO  - In handleBuyRequest with URI: /buy?shares=5&symbol=AAPL&clientId=client3. Request Method: POST
+12:01:13.654 [pool-5-thread-1] INFO  - In handleBuyRequest with URI: /buy?shares=20&symbol=AMGN&clientId=client2. Request Method: POST
+12:01:13.654 [pool-5-thread-10] INFO  - In handleSellRequest with URI: /sell?shares=3&symbol=AAPL&clientId=client1. Request Method: POST
+12:01:13.703 [pool-5-thread-5] INFO  - In handleBuyRequest with URI: /buy?shares=20&symbol=AMGN&clientId=client3. Request Method: POST
+12:01:13.703 [pool-5-thread-3] INFO  - In handleGetMarketValue with URI: /marketvalue?clientId=client1. Request Method: GET
+12:01:13.703 [pool-5-thread-4] INFO  - In handleSellRequest with URI: /sell?shares=3&symbol=AAPL&clientId=client2. Request Method: POST
+12:01:13.752 [pool-5-thread-6] INFO  - In handleGetPrices with URI: /prices. Request Method: GET
+12:01:13.752 [pool-5-thread-7] INFO  - In handleGetMarketValue with URI: /marketvalue?clientId=client2. Request Method: GET
+12:01:13.753 [pool-5-thread-8] INFO  - In handleSellRequest with URI: /sell?shares=3&symbol=AAPL&clientId=client3. Request Method: POST
+12:01:13.805 [pool-5-thread-2] INFO  - In handleSellRequest with URI: /sell?shares=3&symbol=AMGN&clientId=client1. Request Method: POST
+12:01:13.805 [pool-5-thread-9] INFO  - In handleBuyRequest with URI: /buy?shares=3&symbol=AAPL&clientId=client3. Request Method: POST
+12:01:13.805 [pool-5-thread-1] INFO  - In handleBuyRequest with URI: /buy?shares=3&symbol=AMGN&clientId=client2. Request Method: POST
+12:01:13.852 [pool-5-thread-10] INFO  - In handleGetPortfolio with URI: /portfolio?clientId=client2. Request Method: GET
+12:01:13.852 [pool-5-thread-5] INFO  - In handleGetPortfolio with URI: /portfolio?clientId=client1. Request Method: GET
+12:01:13.853 [pool-5-thread-3] INFO  - In handleSellRequest with URI: /sell?shares=5&symbol=AMGN&clientId=client3. Request Method: POST
+12:01:13.904 [pool-5-thread-4] INFO  - In handleGetPortfolio with URI: /portfolio?clientId=client3. Request Method: GET
+12:01:13.952 [main   ] INFO  - Server stopped.
+12:01:13.952 [Thread-5] INFO  - Application exiting
+]]></system-out>
+  </testcase>
+  <testcase name="errorTest" classname="edu.yu.parallel.PrivateAPITest" time="0.918">
+    <system-out><![CDATA[12:01:13.955 [Thread-9] INFO  - Application starting
+12:01:13.955 [Thread-9] INFO  - Using 10 broker(s)
+12:01:13.962 [Thread-9] INFO  - Loaded 15 stocks
+12:01:13.962 [Thread-9] INFO  - Started updating of stock prices
+12:01:13.963 [Thread-9] INFO  - Server started on port 8080. Press Ctrl+C to stop...
+12:01:13.969 [pool-7-thread-1] INFO  - In handleRegisterClient with URI: /register?clientId=c1&funds=10000.0. Request Method: POST
+12:01:13.973 [pool-7-thread-2] INFO  - In handleBuyRequest with URI: /buy?shares=5&symbol=AAPL&clientId=c1. Request Method: PATCH
+12:01:14.022 [pool-7-thread-3] INFO  - In handleGetPortfolio with URI: /portfolio?clientId=c1. Request Method: GET
+12:01:14.076 [pool-7-thread-4] INFO  - In handleRegisterClient with URI: /register?clientId=c1&funds=10000.0. Request Method: POST
+12:01:14.122 [pool-7-thread-5] INFO  - In handleGetPrices with URI: /prices. Request Method: PATCH
+12:01:14.172 [pool-7-thread-6] INFO  - In handleGetPortfolio with URI: /portfolio?clientId=c1. Request Method: GET
+12:01:14.223 [pool-7-thread-7] INFO  - In handleRegisterClient with URI: /register?clientId=c1&funds=10000.0. Request Method: POST
+12:01:14.272 [pool-7-thread-8] INFO  - In handleGetMarketValue with URI: /marketvalue?clientId=c1. Request Method: PATCH
+12:01:14.322 [pool-7-thread-9] INFO  - In handleGetPortfolio with URI: /portfolio?clientId=c1. Request Method: GET
+12:01:14.373 [pool-7-thread-10] INFO  - In handleRegisterClient with URI: /register?clientId=c1&funds=10000.0. Request Method: POST
+12:01:14.422 [pool-7-thread-1] INFO  - In handleSellRequest with URI: /sell?shares=3&symbol=AAPL&clientId=c1. Request Method: PATCH
+12:01:14.472 [pool-7-thread-2] INFO  - In handleGetPortfolio with URI: /portfolio?clientId=c1. Request Method: GET
+12:01:14.522 [pool-7-thread-3] INFO  - In handleRegisterClient with URI: /register?clientId=c1&funds=10000.0. Request Method: POST
+12:01:14.572 [pool-7-thread-4] INFO  - In handleGetPortfolio with URI: /portfolio?clientId=c1. Request Method: PATCH
+12:01:14.622 [pool-7-thread-5] INFO  - In handleGetPortfolio with URI: /portfolio?clientId=c1. Request Method: GET
+12:01:14.674 [pool-7-thread-6] INFO  - In handleRegisterClient with URI: /register?clientId=InsufficientSharesException&funds=1.0E8. Request Method: POST
+12:01:14.677 [pool-7-thread-7] INFO  - In handleBuyRequest with URI: /buy?shares=10000&symbol=AAPL&clientId=InsufficientSharesException. Request Method: POST
+12:01:14.722 [pool-7-thread-8] INFO  - In handleGetPortfolio with URI: /portfolio?clientId=InsufficientSharesException. Request Method: GET
+12:01:14.774 [pool-7-thread-9] INFO  - In handleRegisterClient with URI: /register?clientId=InsufficientFundsException&funds=10.0. Request Method: POST
+12:01:14.776 [pool-7-thread-10] INFO  - In handleBuyRequest with URI: /buy?shares=1&symbol=AAPL&clientId=InsufficientFundsException. Request Method: POST
+12:01:14.822 [pool-7-thread-1] INFO  - In handleGetPortfolio with URI: /portfolio?clientId=InsufficientFundsException. Request Method: GET
+12:01:14.871 [main   ] INFO  - Server stopped.
+12:01:14.871 [Thread-9] INFO  - Application exiting
+]]></system-out>
+  </testcase>
+  <testcase name="singleClientIndependentRequests" classname="edu.yu.parallel.PrivateAPITest" time="0.17">
+    <system-out><![CDATA[12:01:14.875 [Thread-13] INFO  - Application starting
+12:01:14.875 [Thread-13] INFO  - Using 10 broker(s)
+12:01:14.881 [Thread-13] INFO  - Loaded 15 stocks
+12:01:14.882 [Thread-13] INFO  - Started updating of stock prices
+12:01:14.882 [Thread-13] INFO  - Server started on port 8080. Press Ctrl+C to stop...
+12:01:14.887 [pool-8-thread-1] INFO  - In handleRegisterClient with URI: /register?clientId=clyde&funds=100000.0. Request Method: POST
+12:01:14.891 [pool-8-thread-2] INFO  - In handleBuyRequest with URI: /buy?shares=5&symbol=AAPL&clientId=clyde. Request Method: POST
+12:01:14.942 [pool-8-thread-3] INFO  - In handleGetPrices with URI: /prices. Request Method: GET
+12:01:14.993 [pool-8-thread-4] INFO  - In handleGetPortfolio with URI: /portfolio?clientId=clyde. Request Method: GET
+true
+12:01:15.044 [main   ] INFO  - Server stopped.
+12:01:15.044 [Thread-13] INFO  - Application exiting
+]]></system-out>
+  </testcase>
+  <testcase name="singleClientConflictingRequests" classname="edu.yu.parallel.PrivateAPITest" time="0.406">
+    <system-out><![CDATA[12:01:15.047 [Thread-17] INFO  - Application starting
+12:01:15.047 [Thread-17] INFO  - Using 10 broker(s)
+12:01:15.054 [Thread-17] INFO  - Loaded 15 stocks
+12:01:15.054 [Thread-17] INFO  - Started updating of stock prices
+12:01:15.055 [Thread-17] INFO  - Server started on port 8080. Press Ctrl+C to stop...
+12:01:15.101 [pool-9-thread-1] INFO  - In handleRegisterClient with URI: /register?clientId=clyde&funds=100000.0. Request Method: POST
+12:01:15.105 [pool-9-thread-2] INFO  - In handleBuyRequest with URI: /buy?shares=5&symbol=AAPL&clientId=clyde. Request Method: POST
+12:01:15.152 [pool-9-thread-3] INFO  - In handleBuyRequest with URI: /buy?shares=10&symbol=AMGN&clientId=clyde. Request Method: POST
+12:01:15.202 [pool-9-thread-4] INFO  - In handleSellRequest with URI: /sell?shares=3&symbol=AAPL&clientId=clyde. Request Method: POST
+12:01:15.252 [pool-9-thread-5] INFO  - In handleGetMarketValue with URI: /marketvalue?clientId=clyde. Request Method: GET
+12:01:15.303 [pool-9-thread-6] INFO  - In handleGetPrices with URI: /prices. Request Method: GET
+12:01:15.352 [pool-9-thread-7] INFO  - In handleSellRequest with URI: /sell?shares=3&symbol=AMGN&clientId=clyde. Request Method: POST
+12:01:15.403 [pool-9-thread-8] INFO  - In handleGetPortfolio with URI: /portfolio?clientId=clyde. Request Method: GET
+12:01:15.451 [main   ] INFO  - Server stopped.
+12:01:15.451 [Thread-17] INFO  - Application exiting
+]]></system-out>
+  </testcase>
+</testsuite>
