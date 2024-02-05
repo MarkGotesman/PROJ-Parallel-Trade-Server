@@ -1,4 +1,4 @@
-# PROJ-Parallel-Trade-Server
+# Parallel Trade Server
 Mock stock exchange server handling multiple concurrent clients with safe parallelization; written entirely with Java. __The skeleton of this project was provided by an instructor__ while the implementation, most notably in the ```/Impl``` folder, is my own. Note the use of fine-grained parallelization which enables high concurrent performance; bechmarks showed Buy/Sell actions over 5 sec of 12,299,290 (over __12 million__).
 
 ## Overview
